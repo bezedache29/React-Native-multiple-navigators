@@ -28,7 +28,6 @@ export default function LoginScreen({ navigation }) {
         <InputField 
           label="Password"
           icon={<Ionicons name='ios-lock-closed-outline' size={20} color='#666' />}
-          keyboardType="password"
           inputType="password"
           fieldButtonLabel="Forgot ?"
           fieldButtonFunction={() => {}}
