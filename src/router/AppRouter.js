@@ -6,8 +6,8 @@ import AppStack from './AppStack';
 export default function AppRouter() {
   return (
     <NavigationContainer>
-      <AppDrawer />
-      {/* <AppStack /> */}
+      {/* <AppDrawer /> */}
+      <AppStack />
     </NavigationContainer>
   )
 }
